@@ -1,6 +1,7 @@
 body{
     font-size: 28px;
     font-family: verdana, sans-serif;
+    overflow:hidden;
 }
 .container-fluid{
     display:flex;
