@@ -12,8 +12,8 @@ body{
 }
 .login-box{
     display: flex;
-    min-width:600px;
-    min-height:600px;
+    min-width:400px;
+    min-height:400px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -34,7 +34,7 @@ input{
     padding: 10px;
     font-size: 20px;
     border-radius: 8px;
-    border:none;
+    border: none;
 }
 button{
     font-size: 20px;
