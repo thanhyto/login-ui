@@ -1,0 +1,49 @@
+body{
+    font-size: 28px;
+    font-family: verdana, sans-serif;
+    overflow:hidden;
+}
+.container-fluid{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100vw;
+}
+.login-box{
+    display: flex;
+    min-width:600px;
+    min-height:600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246, 71, 64);
+    border-radius: 20px;
+    box-shadow: 8px 8px rgb(12, 124, 89);
+}
+h1{
+    color:rgb(249, 194, 46);
+    font-family: verdana, sans-serif;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    border:none;
+}
+button{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: verdana, sans-serif;
+    margin:10px;
+    padding:10px;
+    border-radius: 5px;
+    color: rgb(249, 194, 46);
+    background-color: rgb(12, 124, 89);
+    border: none;
+}
